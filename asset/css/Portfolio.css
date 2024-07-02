@@ -1,0 +1,1359 @@
+ /* ----------------------------- CSS For Home Page -------------------------------- */
+
+ body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(9, 27, 42);
+}
+.Nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 25%;
+    color: whitesmoke;
+    position: fixed;
+width: 100%;
+}
+.Nav li{
+    display: inline;
+
+}
+
+.logo-h3{
+font-size: 50px;
+padding: 0px;
+color: aqua;
+font-weight: 900;
+margin: -7px;
+margin-top: -20px;
+cursor: pointer;
+}
+.Hclr{
+color: aqua;
+}
+ul li:hover .Hclr{
+color: rgb(247, 238, 238);
+}
+.Nav a{
+text-decoration: none;
+padding: 10px;
+
+color: whitesmoke;
+}
+.Nav a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    background-color: rgb(239, 239, 239);
+    margin-left: -50px;
+    margin-top: 30px;
+    transform: scale(0);
+    transform-origin: left;
+    transition: all 0.5s ease-in-out;
+}
+.Nav a:hover:after{
+    transform: scale(1);
+}
+.Nav .lk::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 85px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -75px;
+    margin-top: 30px;
+    transform: scale(0);
+    transform-origin: left;
+    transition: all 0.5s ease-in-out;
+}
+.Nav .lk:hover:after{
+    transform: scale(1);
+}
+.Nav .op::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 74px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -64px;
+    margin-top: 30px;
+    transform: scale(0);
+    transform-origin: left;
+    transition: all 0.5s ease-in-out;
+}
+.Nav .op:hover:after{
+    transform: scale(1);
+}
+.Nav .pp::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -60px;
+    margin-top: 30px;
+    transform: scale(0);
+    transform-origin: left;
+    transition: all 0.5s ease-in-out;
+}
+.Nav .pp:hover:after{
+    transform: scale(1);
+}
+.Nav .ll::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 57px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -47px;
+    margin-top: 30px;
+    transform: scale(0);
+    transform-origin: left;
+    transition: all 0.5s ease-in-out;
+}
+.Nav .ll:hover:after{
+    transform: scale(1);
+}
+.Logo .jj::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 57px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -87px;
+    margin-top: 30px;
+    transform: scale(0);
+    transform-origin: left;
+    transition: all 0.5s ease-in-out;
+}
+.Logo .jj:hover:after{
+    transform: scale(0);
+}
+.Nav a:hover {
+opacity: .8;
+
+}
+.Logo a:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.Logo {
+display: flex;
+align-items: center;
+
+}
+.Logo a{
+color: aqua;
+}
+.Up1 h1{
+color: whitesmoke;
+font-size: 40px;
+}
+.N1{
+color: aqua;
+}
+.Up2 h2{
+color: aqua;
+margin-top: -15px;
+}
+.Up3 p{
+color: whitesmoke;
+width: 52%;
+margin-top: 50px;
+}
+.Butt1{
+width: 270px;
+margin-left: 50px;
+margin-top: 60px;
+display: flex;
+gap: 50px;
+}
+.Butt1 button{
+height: 35px;
+width: 100px;
+background-color: rgb(0, 157, 227);
+border-radius: 10px;
+outline: 2px solid rgb(0, 157, 227);
+border: none;
+cursor: pointer;
+
+}
+.Butt1 button:hover{
+background-color: transparent;
+color: aqua;
+outline: 2px solid aqua;
+}
+.Butt1 button:hover a{
+color: aqua;
+}
+
+.B2 a button{
+background-color: transparent;
+outline: 2px solid aqua;
+color: aqua;
+cursor: pointer;
+}
+
+
+.Butt1 button a{
+text-decoration: none;
+color: black;
+}
+.Main1pic img{
+position: absolute;
+margin-top: -65px;
+width: 400px;
+height: 400px;
+opacity: 0.7;
+animation-name: Ampic;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+box-shadow: 2px 2px 6px rgb(88, 46, 46), -2px -2px 6px rgb(88, 46, 46),inset 3px 3px 190px aqua, 2px 2px 70px aqua;
+border-radius: 20% 12% 57% 80% / 10% 14% 96% 90% ;
+}
+@keyframes Ampic {
+0%{
+
+}
+100%{
+    margin-top: -100px;
+    transform: rotateZ(3deg);
+}
+}
+.Upclr1{
+position: absolute;
+height: 300px;
+width: 255px;
+margin-left: 59.5%;
+margin-top: 30vh;
+/* background-color: aqua;
+box-shadow: 4px 4px 55px red, -4px -4px 55px red,inset 2px 2px 30px blue,inset -4px -4px 30px blue;
+border-radius: 10% 92% 17% 90% / 10% 84% 16% 90% ; */
+}
+
+.Main1 {
+margin-left: 30px;
+padding-top: 70px;
+}
+
+.Social1{
+margin-top: 70px;
+margin-left: 50px;
+display: flex;
+justify-content: left;
+gap: 20px;
+}
+.Social1 i{
+font-size: 18px;
+color: aqua;
+}
+.Social1 .Soir:hover{
+border: 2px solid rgb(255, 255, 255);
+    background-color: aqua;
+}
+.Soir:hover i{
+color: black;
+
+}
+.Soir{
+height: 30px;
+width: 30px;
+display: flex;
+margin-left: 10px;
+align-items: center;
+justify-content: center;
+border: 2px solid aqua;
+border-radius: 50%;
+}
+
+/* ------------------------------- CSS for Home End --------------------------------- */
+
+
+
+/* --------------------------------- CSS Start For about ------------------------- */
+.Main2{
+padding-top: 50px;
+}
+.Center{
+text-align: center;
+}
+.Up2a{
+margin-top: -30px;
+}
+.Up2a h1{
+font-size: 35px;
+color: whitesmoke;
+}
+.Meclr{
+color: aqua ;
+}
+.Up2bmain:hover .Back{
+margin-top: 100px;
+border-radius: 50px;
+height: 250px;
+width: 250px;
+margin-left: -4%;
+background-color: rgb(83, 116, 116);
+transition: all 0s ease-in-out;
+}
+.Back{
+height: 0px;
+position: absolute;
+width: 0px;
+background-color: rgb(33, 67, 72);
+}
+.Up2bmain:hover .Btext{
+    opacity: 1;
+    /* margin-top: 100px; */
+    padding-top: 160px;
+    
+}
+.Btext{
+    margin-top: -80px;
+    opacity: 0;
+    transition: all 0s;
+}
+.Btext h2{
+    color: aqua;
+}
+.Btspn{
+    color: white;
+}
+.Up2b{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Social2{
+    margin-top: 40px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+    }
+    .Social2 i{
+    font-size: 12px;
+    color: aqua;
+    }
+    .Social2 .Soir2:hover{
+    border: 2px solid rgb(255, 255, 255);
+        background-color: aqua;
+    }
+    .Soir2:hover i{
+    color: black;
+    
+    }
+    .Soir2{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid aqua;
+    border-radius: 50%;
+    }
+.Pic{
+position: absolute;
+height: 150px;
+width: 150px;
+margin-top: -40px;
+margin-left: 0%;
+border-radius: 50%;
+transition: all 0.3s ease-in-out;
+margin-left: 30%;
+
+}
+.Pic::before{
+content: "";
+position: absolute;
+height: 165px;
+width: 165px;
+border-radius: 50%;
+margin-top: -7px;
+margin-left: -70%;
+border: 1px solid aqua;
+transition: all 1s;
+}
+.pic::after{
+    content: "";
+    position: absolute;
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    margin-top: -7px;
+    margin-left: -25%;
+    border: 1px solid aqua;
+    transition: all 1s; 
+}
+.Up2bmain:hover .Pic::before{
+opacity: 0;
+
+
+}
+.Up2bmain:hover .Pic{
+margin-top: -60px;
+margin-left: 30%;
+border-radius: 30%;
+}
+.Up2bmain{
+height: 150px;
+width: 150px;
+display: flex;
+align-items: center;
+margin-top: 2%;
+border-radius: 50%;
+
+}
+.Pic img{
+position: absolute;
+height: 150px;
+width: 150px;
+border-radius: 50%;
+margin-left: -64%;
+transition: all .4s ease-in-out;
+}
+.Up2bmain:hover .Pic img{
+height: 150px;
+width: 150px;
+border-radius: 50%;
+transition: all .4s ease-in-out;
+}
+.Up2c{
+margin-top: 120px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.Up2c p{
+color: whitesmoke;
+margin-top: -5px;
+text-align: center;
+width: 40%;
+}
+.Up2c button{
+height: 30px;
+border-radius: 20px;
+color: aqua;
+cursor: pointer;
+
+outline: 2px solid aqua;
+background-color: transparent;
+transition: .5s all;
+}
+.Up2c button:hover{
+    background-color: aqua;
+    transform: scale(1.2);
+    color: black;
+}
+
+
+        /* ------------------------------ CSS End for About --------------------- */
+
+        
+    /* ------------------------------ CSS Start for Education --------------------- */
+
+.Up3a{
+margin-top: -30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Up3a h1{
+font-size: 35px;
+color: whitesmoke;
+}
+.Meclr{
+color: aqua ;
+}
+.Up3edu .dtext{
+height: auto;
+width: 400px;
+outline: 2px solid aqua;
+margin-top: 30px;
+padding-bottom: 10px;
+}
+.Up3exp .dtext{
+height: auto;
+width: 400px;
+max-width: 500px;
+outline: 2px solid aqua;
+margin-top: 30px;
+padding-bottom: 10px;
+}
+.Up3b{
+display: flex;
+justify-content: center;
+gap: 100px;
+}
+.Up3b h6{
+color: rgb(82, 137, 248);
+padding-top: 10px;
+margin-left: 30px;
+}
+.Up3b h5{
+color: whitesmoke;
+margin-top: -20px;
+margin-left: 20px;
+}
+.Up3b p{
+color: rgb(211, 211, 211);
+margin-top: -10px;
+font-size: 14px;
+margin-left: 20px;
+}
+.Up3d1{
+height: 10px;
+width: 10px;
+background-color: darkgray;
+border-radius: 50%;
+}
+.Up3d2{
+height: 150px;
+width: 1px;
+background-color:darkgray ;
+}
+.Up3c1{
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 115px;
+margin-left: 150px;
+}
+.Up3c2{
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 115px;
+margin-left: 51.5%;
+}
+.eduu{
+height: 30px;
+width: 400px;
+border: 2px solid aqua;
+color: whitesmoke;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 0% 100% 100% 0% / 69% 43% 57% 31% ;
+margin-top: 60px;
+margin-left: 180px;
+}
+
+
+.expp{
+height: 30px;
+width: 398px;
+border: 2px solid aqua;
+border-right: none;
+color: whitesmoke;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 0% 100% 100% 0% / 69% 43% 57% 31% ;
+margin-top: 60px;
+margin-left: 53.7%;
+}
+.Main3{
+margin-top: 20vh;
+padding-top: 50px;
+}
+
+
+    /* ------------------------------ CSS End for Education --------------------- */
+
+
+    /* ------------------------------ CSS Start for Skills --------------------- */
+
+    .Up4a{
+margin-top: -30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Up4a h1{
+font-size: 35px;
+color: whitesmoke;
+}
+.Meclr{
+color: aqua ;
+}
+.codd{
+height: 30px;
+width: 398px;
+border: 2px solid aqua;
+color: whitesmoke;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 0% 100% 100% 0% / 69% 43% 57% 31% ;
+margin-top: -20px;
+margin-left:-35.3% ;
+}
+
+.proff{
+height: 30px;
+width: 398px;
+border: 2px solid aqua;
+color: whitesmoke;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 0% 100% 100% 0% / 69% 43% 57% 31% ;
+margin-top: -20px;
+margin-left: 36%;
+}
+
+.Up4div1{
+height: auto;
+width: 400px;
+padding-bottom: 30px;
+outline: 1px solid aqua;
+}
+.Up4div2{
+    height: auto;
+    width: 400px;
+    padding-bottom: 30px;
+    outline: 1px solid aqua;
+}
+.Up4div2 .Up4div1a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 240px;
+}
+.Up4b{
+display: flex;
+justify-content: center;
+gap: 50px;
+margin-top: 20px;
+}
+.Up4div1a{
+display: flex;
+justify-content: center;
+gap: 290px;
+color: whitesmoke;
+margin-top: 20px;
+}
+.Up4divin{
+height: 15px;
+width: 90%;
+outline: 1px solid aqua;
+margin-top: -20px;
+border-radius: 20px;
+display: flex;
+justify-content: left;
+align-items: center;
+}
+.Up4div1b{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20%;
+
+}
+.Up4divin2{
+    height: 5px;
+    width: 95%;
+    border-radius: 5px;
+    margin-left: 2px;
+    background-color: aqua;
+}
+
+.Main4{
+margin-top: 200px;
+padding-top: 50px;
+}
+
+
+    /* ------------------------------ CSS End for Skills --------------------- */
+
+    /* --------------------------------- CSS Start for Services--------------------- */
+    .Up6a{
+margin-top: -30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Up6a h1{
+font-size: 35px;
+color: whitesmoke;
+}
+.Meclr{
+color: aqua ;
+}
+.Ddivs1{
+height: 200px;
+width: 350px;
+outline: 1px solid aqua;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.Ddivs1 img{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+margin-top: 5px;
+outline: 1px solid aqua;
+box-shadow: 3px 3px 10px aqua,-3px -3px 10px aqua,inset 2px 2px 5px red,inset -2px -2px 5px red;
+}
+.Ddivs1 h3{
+    color: aqua;
+    font-weight: 100;
+}
+.Ddivs1 p{
+    color: white;
+    text-align: center;
+}
+.M6ab{
+    color: white;
+}
+.Up6uper1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.Ddivs2{
+height: 300px;
+width: 400px;
+padding-top: 0px;
+
+outline: 1px solid aqua;
+}
+.Ddivs2  img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 5px;
+    outline: 1px solid aqua;
+    box-shadow: 3px 3px 10px aqua,-3px -3px 10px aqua,inset 2px 2px 5px red,inset -2px -2px 5px red;
+    }
+    .Ddivs2 h3{
+        color: aqua;
+        font-weight: 100;
+    }
+    .Ddivs2 p{
+        color: white;
+        text-align: center;
+        width: 80%;
+
+    }
+    .Ddivs2 .M6ab{
+        color: white;
+    }
+    .Ddivs2 .Up6uper1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+.Up6divs{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 30px;
+}
+.Main6{
+margin-top: 100px;
+padding-top: 60px;
+}
+
+
+    /* ---------------------------------CSS End for Services-------------------------- */
+
+
+    /* ------------------------------------ CSS Start for Contact -------------------------- */
+
+    .Up5a{
+margin-top: -30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Up5a h1{
+font-size: 35px;
+color: whitesmoke;
+}
+.Meclr{
+color: aqua ;
+}
+.Up5form{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.Up5form form{
+height: 70vh;
+width: 50%;
+}
+.Upp1{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.Upp1 input{
+height: 30px;
+width: 40%;
+background-color: transparent;
+outline: 1px solid aqua;
+border: none;
+margin-top: 20px;
+text-align: center;
+color: whitesmoke;
+border-radius: 20px;
+letter-spacing: 2px;
+font-weight: 700;
+text-transform: capitalize;
+font-family: 'Times New Roman', Times, serif
+}
+textarea{
+background-color: transparent;
+outline: 1px solid aqua;
+border: none;
+margin-top: 20px;
+margin-left: 50px;
+text-align: center;
+color: whitesmoke;
+border-radius: 20px;
+font-weight: 700;
+text-transform: capitalize;
+font-family: 'Times New Roman', Times, serif;
+}
+.butt button{
+height: 25px;
+width: 120px;
+border-radius: 20px;
+background-color: transparent;
+border: none;
+outline: 1px solid aqua;
+color: whitesmoke;
+cursor: pointer;
+}
+.butt{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+.butt a{
+text-decoration: none;
+color: whitesmoke;
+}
+.Main5{
+margin-top: 120px;
+}
+
+    /* ----------------------------------- CSS End for Contact --------------------------- */
+
+
+
+
+
+   /* ----------------------------------Start Media Querries  ------------------------------------ */
+
+    @media(max-width: 1024px) {
+    .Up4div1 .Up4div1a{
+        gap: 70%;
+    }
+    .Up4div2 .Up4div1a{
+        gap: 60%;
+    }
+    .eduu {
+
+        margin-left: 60px;
+    }
+    .expp {
+
+        margin-left: 54.7%;
+    }
+    .Up3c1 {
+
+        margin-left: 40px;
+    }
+    .Up3c2 {
+
+        margin-left: 52.7%;
+    }
+    .codd {
+        margin-left: -44%;
+    }
+    .proff {
+        margin-left: 44%;
+    }
+    .Ddivs1 {
+        height: 200px;
+        width: 260px;
+    }
+    .Ddivs2 {
+        height: 330px;
+        width: 330px;
+    }
+    textarea {
+        margin-left: 0px;
+    }
+    .Main1pic img {
+        margin-top: -20px;
+    }
+    /* @keyframes Ampic {
+    0% {
+    }
+    100% {
+        margin-top: -70px;
+        transform: rotateZ(3deg);
+    }
+} */
+    
+}
+@media (max-width:768px) {
+    .Nav{
+        gap: 0%;
+        
+    }
+    .Main1pic img{
+        height: 250px;
+        width: 250px;
+    }
+    .Up2c p {
+        color: whitesmoke;
+        margin-top: -5px;
+        text-align: center;
+        width: 65%;
+    }
+    .eduu {
+        width: 300px;
+        margin-left: 32px;
+    }
+    .expp {
+        height: 30px;
+        width: 300px;
+        margin-left: 56.2%;
+    }
+    .Up3edu .dtext {
+        height: auto;
+        width: 300px;
+        outline: 2px solid aqua;
+        margin-top: 30px;
+    }
+    .Up3exp .dtext {
+        height: auto;
+        width: 400px;
+        outline: 2px solid aqua;
+        margin-top: 30px;
+    }
+    .Up3c1 {
+
+        margin-left: 10px;
+    }
+    .Up3c2 {
+        margin-left: 53.5%;
+    }
+    .Up4div1 {
+        height: auto;
+        width: 300px;
+
+    }
+    .Up4div1 .Up4div1a{
+        gap: 65%;
+    }
+    .Up4div2 {
+        width: 300px;
+
+    }
+    .Up4div2 .Up4div1a{
+        gap: 45%;
+    }
+    
+    .codd {
+        height: 30px;
+        width: 300px;
+        margin-left: -45.3%;
+    }
+    .proff {
+        height: 30px;
+        width: 300px;
+        margin-left: 46%;
+    }
+    .Ddivs1 {
+        height: 200px;
+        width: 200px;
+    }
+    .Ddivs1 img{
+        height: 30px;
+        width: 30px;
+    }
+    .Ddivs2 {
+        height: 300px;
+        width: 260px;
+    }
+    .Ddivs2 img{
+        height: 50px;
+        width: 50px;
+    }
+    .Ddivs3 {
+        height: 200px;
+        width: 200px;
+    }
+    .Ddivs3 img {
+        height: 30px;
+        width: 30px;
+    }
+    textarea {
+        margin-left: -70px;
+
+    }
+    .Up1 h1 {
+        color: whitesmoke;
+        font-size: 34px;
+    }
+    
+.Upclr1 {
+    position: absolute;
+    height: 300px;
+    width: 255px;
+    margin-left: 59.5%;
+    margin-top: 40vh;
+}
+    /* @keyframes Ampic {
+        0% {
+        }
+        100% {
+            margin-top: -60px;
+            transform: rotateZ(3deg);
+        }
+    } */
+    .Up3exp .dtext {
+        height: auto;
+        width: 300px;
+        outline: 2px solid aqua;
+        margin-top: 30px;
+    }
+    .Up3d2{
+        height: 172px;
+    }
+
+} 
+
+ 
+
+@media (max-width:426px) {
+    .Nav a{
+        padding: 5px;
+    }
+    .Nav{
+        justify-content: start;
+    }
+    .logo-h3 {
+        margin-left: 0px;
+    }
+    ul{
+        width: 50%;
+    }
+    .Up1 h1 {
+        color: whitesmoke;
+        font-size: 23px;
+    }
+    .Up2 h2 {
+        color: aqua;
+        font-size: 21px;
+        margin-top: -19px;
+    }
+    .Main1 {
+        margin-left: 10px;
+        padding-top: 70px;
+    }
+    .Upclr1 {
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        margin-left: 43.5%;
+        margin-top: 73vh;
+    }
+    .Up1 h1 {
+        width: 330px;
+    }
+    .Up3 p {
+        width: 48%;
+    }
+    .Main1pic img {
+        height: 200px;
+        width: 200px;
+    }
+    .Up3b {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        flex-direction: column;
+        margin-left: 55px;
+    }
+    .Main4 {
+        margin-top: 184px;
+        padding-top: -15px;
+    }
+    .Up3c1 {
+        margin-left: 25px;
+    }
+    .Up3c2 {
+        margin-left: 5.5%;
+        margin-top: 217vh;
+    }
+    .expp {
+        height: 30px;
+        width: 300px;
+        margin-left: 14.2%;
+        margin-top: 195vh;
+    }
+    .eduu {
+        width: 300px;
+        margin-left: 53px;
+        margin-top: 57px;
+    }
+    .Up4b {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        margin-top: 20px;
+        flex-direction: column;
+        margin-left: 67px;
+    }
+    .codd {
+        height: 30px;
+        width: 300px;
+        margin-left: -19px;
+        margin-top: -121px;
+    }
+    .proff {
+        height: 30px;
+        width: 300px;
+        margin-left: -5.2%;
+        margin-top: 281vh;
+    }
+    textarea {
+        margin-left: -70px;
+        width: 347px;
+    }
+    .Up6divs {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 20px;
+    }
+    .Upp1 input {
+        height: 30px;
+        width: 96%;
+        background-color: transparent;
+        outline: 1px solid aqua;
+        border: none;
+        margin-top: 20px;
+        text-align: center;
+        color: whitesmoke;
+        border-radius: 20px;
+        letter-spacing: 0px;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .Up4div1 {
+        height: auto;
+        width: 300px;
+        margin-top: -107px;
+        margin-left: -19px;
+    }
+    .Up4div2 {
+        width: 300px;
+        margin-top: 40px;
+        margin-left: -19px;
+    }
+    .Upp1 input {
+        height: 30px;
+        width: 107px;
+    }
+    textarea {
+        margin-left: -70px;
+        width: 326px;
+    }
+    .Up5a {
+        margin-top: -30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 37px;
+    }
+    .Nav .ll:hover:after {
+        transform: scale(1);
+    }
+    
+    .Nav a:hover:after {
+        transform: scale(1);
+    }
+    .Nav .ll::after {
+        height: 2px;
+        width: 39px;
+        margin-left: -37px;
+        margin-top: 18px;
+    }
+    .Nav .op::after {
+        height: 2px;
+        width: 57px;
+        margin-left: -55px;
+        margin-top: 18px;}
+
+    .Nav .pp::after {
+        height: 2px;
+        width: 52px;
+        margin-left: -50px;
+        margin-top: 18px;
+
+    }
+    .Nav a::after {
+        height: 2px;
+        width: 42px;
+        margin-left: -40px;
+        margin-top: 17px;
+    }
+    .Nav .lk::after {
+        width: 67px;
+        margin-left: -66px;
+        margin-top: 17px;
+    }
+    .Nav{
+        justify-content: space-evenly;
+    }
+
+}
+    @media (max-width:320px) {
+        .Main1pic img {
+            height: 170px;
+            width: 170px;
+        }
+        .eduu {
+            width: 259px;
+            margin-left: 28px;
+            margin-top: 57px;
+        }
+        .Up3c1 {
+            margin-left: 8px;
+        }
+        .Up3c2 {
+            margin-left: 8px;
+            margin-top: 217vh;
+        }
+        .Up3b {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            flex-direction: column;
+            margin-left: 30px;
+        }
+        .Up3edu .dtext {
+            height: auto;
+            width: 259px;
+            outline: 2px solid aqua;
+            margin-top: 30px;
+        }
+        .expp {
+            height: 30px;
+            width: 259px;
+            margin-left: 28px;
+            margin-top: 196vh;
+        }
+        .Up3exp .dtext {
+            height: auto;
+            width: 259px;
+            outline: 2px solid aqua;
+            margin-top: 30px;
+        }
+        .Up3b {
+            display: flex;
+            justify-content: center;
+            gap: 69px;
+            flex-direction: column;
+            margin-left: 30px;
+        }
+        .codd {
+            height: 30px;
+            width: 259px;
+            margin-left: -36px;
+            margin-top: -121px;
+        }
+        .Up4div1 {
+            height: auto;
+            width: 259px;
+            margin-top: -107px;
+            margin-left: -36px;
+        }
+        .proff {
+            height: 30px;
+            width: 259px;
+            margin-left: -36px;
+            margin-top: 281vh;
+        }
+        .Up4div2 {
+            width: 259px;
+            margin-top: 40px;
+            margin-left: -35px;
+        }
+        textarea {
+            margin-left: -70px;
+            width: 291px;
+        }
+        .Up1 h1 {
+            width: 238px;
+        }
+        .Up3 p {
+            width: 42%;
+        }
+        .Butt1 {
+            width: 270px;
+            margin-left: 25px;
+            margin-top: 60px;
+            display: flex;
+            gap: 50px;
+        }
+        .Social1 {
+            margin-top: 70px;
+            margin-left: 0px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .Main2 {
+            padding-top: 64px;
+        }
+        .Main3 {
+            margin-top: 20vh;
+            padding-top: 70px;
+        }
+        .Main4 {
+            padding-top: 70px;
+        }
+        .Main6 {
+            margin-top: 100px;
+            padding-top: 76px;
+        }
+        .Up5a {
+            margin-top: -30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 48px;
+        }
+    }
